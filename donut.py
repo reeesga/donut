@@ -73,7 +73,7 @@ def render_frame(A, B):
     print('\x1b[H')
     for i in range(screen_height):
         for j in range(screen_width):
-            print(char_output[i][j], end='')
+            print(char_output[i][j], '')
         print()
 
 
